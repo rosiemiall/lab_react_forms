@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Cake from "./Cake.js";
 import CakeList from "./CakeList.js";
+import CakeForm from "./CakeForm.js";
 
 const CakeContainer = () => {
 
@@ -47,13 +48,16 @@ const CakeContainer = () => {
 			} 
 		]		
 	)
-	
+	const handleNewCakeSubmission = (newCake) => {
+		setListOfCakes([...listOfCakes, newCake]);
+	}
+
+
   return (
     <>
+		<CakeForm onNewCakeSubmission={handleNewCakeSubmission} />
 		<CakeList listOfCakes={listOfCakes} />
-        {/* <Cake />
-       
-        <Cake /> */}
+    
     </>
   )
 }
