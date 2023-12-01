@@ -27,7 +27,8 @@
     border-color: #B96492;
     border-radius: 25px;
     text-align: center;
-    color:#685044;;
+    color:#685044;
+    margin:10px
 }
 #div{
     display:inline-table;
