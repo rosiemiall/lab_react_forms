@@ -2,7 +2,7 @@ import Cake from "./Cake";
 
 const CakeList = ({listOfCakes}) => {
     const differentCakes = listOfCakes.map((cake, id) => {
-        return <Cake cake = {cake} key={id}/>
+        return <div id="div"><Cake cake = {cake} key={id}/></div>
     })
 
     return ( 

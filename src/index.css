@@ -1,0 +1,30 @@
+.title{
+    color:#C17C74;
+    text-align: center;
+}
+#box{
+    border-style: solid;
+    border-color: #86BBD8;
+    background-color: blanchedalmond;
+    border-radius: 25px;
+    color: #685044;
+}
+.para {
+    margin-left: 60px;
+}
+#button{
+    background-color: #86BBD8;
+    border-color:#99B2DD;
+}
+#cakeFormSection{
+    background-color: blanchedalmond;
+    border-style: solid;
+    border-color: #86BBD8;
+    border-radius: 25px;
+    text-align: center;
+    color:#685044;;
+}
+#div{
+    margin: 10px;
+    display:inline-table;
+}

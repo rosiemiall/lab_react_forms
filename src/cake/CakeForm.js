@@ -40,31 +40,34 @@ const CakeForm = ({onNewCakeSubmission}) => {
 
 
     return ( 
-        <section>
-        <h2>Add New Cake:</h2>
+        <section id="cakeFormSection">
+        <h2 className="title">Add New Cake:</h2>
         <form onSubmit={handleFormSubmit}>
             <label htmlFor="cakeName">Name:</label>
             <input 
             type="text" 
             name="cakeName" 
-            placeholder="cakeName"
+            placeholder="cake name"
             />
             <label htmlFor="ingredients">Ingredients:</label>
             <input type="text"
             id="ingredients" 
             // value={ingredients}
+            placeholder="ingredients"
             />
             <label htmlFor="price">Price:</label>
             <input type="number"
             id="price" 
+            placeholder="price"
             // value={price}
             />
             <label htmlFor="rating">Rating:</label>
             <input type="number"
             id="rating" 
+            placeholder="rating"
             // value={rating}
             />
-            <input type="submit" value="Add New Cake"/>
+            <input type="submit" value="Add New Cake" id="button"/>
         </form>
         </section>
      );

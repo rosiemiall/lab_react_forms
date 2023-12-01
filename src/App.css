@@ -1,0 +1,12 @@
+body{
+    background-color: #E6CAC7;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#big-title{
+    color:#843B62;
+    text-align: center;
+}

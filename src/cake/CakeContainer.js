@@ -56,8 +56,9 @@ const CakeContainer = () => {
   return (
     <>
 		<CakeForm onNewCakeSubmission={handleNewCakeSubmission} />
-		<CakeList listOfCakes={listOfCakes} />
-    
+		<div className="container">
+			<CakeList listOfCakes={listOfCakes} />
+		</div>
     </>
   )
 }

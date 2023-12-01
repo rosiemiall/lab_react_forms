@@ -2,13 +2,13 @@ const Cake = ({cake}) => {
 
   return (
     <>
-        <box id="box">
-          <h2>{cake.cakeName}</h2>
-          <ul>ingredients:{cake.ingredients.map(ingredient => {
+        <section id="box">
+          <h2 className="title">{cake.cakeName}</h2>
+          <ul><b>Ingredients:</b>{cake.ingredients.map(ingredient => {
             return <li>{ingredient}</li>})}</ul>
-          <p>price: {cake.price}</p>
-          <p>rating: {cake.rating}</p>
-        </box>
+          <p className="para"> £{cake.price}</p>
+          <p className="para"> {cake.rating}⭐</p>
+        </section>
     </>
   )
 }
