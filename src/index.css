@@ -1,30 +1,34 @@
 .title{
     color:#C17C74;
     text-align: center;
+    margin: 10px;
 }
 #box{
     border-style: solid;
-    border-color: #86BBD8;
+    border-color: #B96492;
     background-color: blanchedalmond;
     border-radius: 25px;
     color: #685044;
+    margin: 10px;
 }
 .para {
     margin-left: 60px;
 }
 #button{
-    background-color: #86BBD8;
-    border-color:#99B2DD;
+    background-color: #B96492;
+    border-color:#B96492;
+    border-radius: 5px;
+    margin: 10px;
+    color:blanchedalmond
 }
 #cakeFormSection{
     background-color: blanchedalmond;
     border-style: solid;
-    border-color: #86BBD8;
+    border-color: #B96492;
     border-radius: 25px;
     text-align: center;
     color:#685044;;
 }
 #div{
-    margin: 10px;
     display:inline-table;
 }
